@@ -1,44 +1,45 @@
-import { createHomePage } from "./homepage";
-import { createContactPage } from "./contact";
-import { createMenuPage } from "./menu";
+import { createHomePage } from './homepage';
+import { createContactPage } from './contact';
+import { createMenuPage } from './menu';
+import backgroundImage from '../src/images/pmd-cake.jpg';
 
-const contentDiv = document.getElementById("content");
+const contentDiv = document.getElementById('content');
 
 function clearContent() {
   const contentChildren = Array.from(contentDiv.children);
   contentChildren.forEach((child) => {
-    if (!child.classList.contains("tabs")) {
+    if (!child.classList.contains('tabs')) {
       contentDiv.removeChild(child);
     }
   });
 }
 
 function createTab(tabName) {
-  const tab = document.createElement("div");
-  tab.classList.add("tab");
+  const tab = document.createElement('div');
+  tab.classList.add('tab');
   tab.textContent = tabName;
   return tab;
 }
 
 function createTabs() {
-  const tabsDiv = document.createElement("div");
-  tabsDiv.classList.add("tabs");
+  const tabsDiv = document.createElement('div');
+  tabsDiv.classList.add('tabs');
 
-  const homeTab = createTab("Home");
-  const contactTab = createTab("Contact");
-  const menuTab = createTab("Menu");
+  const homeTab = createTab('Home');
+  const contactTab = createTab('Contact');
+  const menuTab = createTab('Menu');
 
-  homeTab.addEventListener("click", () => {
+  homeTab.addEventListener('click', () => {
     clearContent();
     createHomePage();
   });
 
-  contactTab.addEventListener("click", () => {
+  contactTab.addEventListener('click', () => {
     clearContent();
     createContactPage();
   });
 
-  menuTab.addEventListener("click", () => {
+  menuTab.addEventListener('click', () => {
     clearContent();
     createMenuPage();
   });
@@ -52,6 +53,10 @@ function createTabs() {
 
 function initializeWebsite() {
   contentDiv.appendChild(createTabs());
+  document.documentElement.style.backgroundImage = `url(${backgroundImage})`;
+  document.documentElement.style.backgroundRepeat = 'no-repeat';
+  document.documentElement.style.backgroundSize = 'cover';
+  document.documentElement.style.backgroundPosition = 'bottom';
   createHomePage();
 }
 

@@ -1,3 +1,7 @@
+import wigglytuffIcon from './images/icons/wigglytuff-icon.png';
+import chatotIcon from './images/icons/chatot-icon.png';
+import dugtrioIcon from './images/icons/dugtrio-icon.png';
+
 function randomNumber() {
   for (let i = 0; i < 10; i++) {
     let randomMobile = '07' + Math.random().toString().slice(2, 11);

@@ -1,3 +1,14 @@
+import tinyApple from './images/foods/tiny-apple.png';
+import apple from './images/foods/apple.png';
+import bigApple from './images/foods/big-apple.png';
+import perfectApple from './images/foods/perfect-apple.png';
+import goldenApple from './images/foods/golden-apple.png';
+import chestnut from './images/foods/chestnut.png';
+import megaDonut from './images/foods/mega-donut.png';
+import grimyFood from './images/foods/grimy-food.png';
+import fourLeafCookie from './images/foods/four-leaf-cookie.png';
+import sweetChocolate from './images/foods/sweet-chocolate.png';
+
 function createMenuPage() {
   const contentDiv = document.getElementById('content');
 
@@ -7,68 +18,68 @@ function createMenuPage() {
       cost: '45 Poké',
       effect:
         'Restores 20 Belly. If eaten while full, maximum Belly goes up by 5.',
-      image: '../src/images/foods/tiny-apple.png',
+      image: tinyApple,
     },
     {
       name: 'Apple',
       cost: '100 Poké',
       effect:
         'Restores 50 Belly. If eaten while full, maximum Belly goes up by 5',
-      image: '../src/images/foods/apple.png',
+      image: apple,
     },
     {
       name: 'Big Apple',
       cost: '200 Poké',
       effect:
         'Restores 100 Belly. If eaten while full, maximum Belly goes up by 10',
-      image: '../src/images/foods/big-apple.png',
+      image: bigApple,
     },
     {
       name: 'Perfect Apple',
       cost: '1000 Poké',
       effect: 'Fully restores the Belly and increases maximum Belly by 50.',
-      image: '../src/images/foods/perfect-apple.png',
+      image: perfectApple,
     },
     {
       name: 'Golden Apple',
       cost: '1600 Poké',
       effect: 'Fully restores the Belly and increases maximum Belly by 50.',
-      image: '../src/images/foods/golden-apple.png',
+      image: goldenApple,
     },
     {
       name: 'Chestnut',
       cost: '1000 Poké',
       effect:
         'Restores 50 Belly. If eaten while full, maximum Belly goes up by 5.',
-      image: '../src/images/foods/chestnut.png',
+      image: chestnut,
     },
     {
       name: 'Mega Donut',
       cost: '3000 Poké',
       effect:
         "A food item that raises a Pokémon's experience points by 5000 and randomly and permanently raises one or more of a Pokémon's stats.",
-      image: '../src/images/foods/mega-donut.png',
+      image: megaDonut,
     },
     {
       name: 'Grimy Food',
       cost: '6 Poké',
       effect:
         'A food item that restores 30 Belly, also inflicts Leg Hold, poison, paralysis, or burn.',
-      image: '../src/images/foods/grimy-food.png',
+      image: grimyFood,
     },
     {
       name: 'Four-Leaf Cookie',
       cost: '3000 Poké',
       effect:
         "A food item that randomly and permanently raises one or more of a Pokémon's stats.",
-      image: '../src/images/foods/four-leaf-cookie.png',
+      image: fourLeafCookie,
     },
     {
       name: 'Sweet Chocolate',
       cost: '3000 Poké',
       effect:
         "A food item that randomly and permanently raises one or more of a Pokémon's stats.",
-      image: '../src/images/foods/sweet-chocolate.png',
+      image: sweetChocolate,
     },
   ];
 
