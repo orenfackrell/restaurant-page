@@ -119,4 +119,4 @@ function createMenuPage() {
   contentDiv.appendChild(menuContainer);
 }
 
-export { createMenuPage };
+export default createMenuPage;
