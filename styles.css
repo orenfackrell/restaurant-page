@@ -7,19 +7,10 @@ html {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  /* background: url(../src/images/pmd-cake.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom; */
 }
 
 body {
-  background-color: rgba(
-    245,
-    245,
-    245,
-    0.8
-  ); /* placeholder colour for contrast */
+  background-color: rgba(245, 245, 245, 0.8); /* placeholder colour for contrast */
   width: 60vh;
   padding: 2rem;
   min-height: 80vh;
