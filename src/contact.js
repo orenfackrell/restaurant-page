@@ -11,21 +11,21 @@ const createContactPage = () => {
   const people = [
     {
       name: 'Wigglytuff',
-      role: 'Guild Leader',
+      role: 'Role: Guild Leader',
       email: 'guildmaster@wigglytuffguild.pmd',
       phone: randomNumber(),
       icon: '../src/images/wigglytuff-icon.png',
     },
     {
       name: 'Chatot',
-      role: 'Guild Assistant',
+      role: 'Role: Guild Assistant',
       email: 'guildassistant@wigglytuffguild.pmd',
       phone: randomNumber(),
       icon: '../src/images/chatot-icon.png',
     },
     {
       name: 'Dugtrio',
-      role: 'Security',
+      role: 'Role: Security',
       email: 'sentry@wigglytuffguild.pmd',
       phone: randomNumber(),
       icon: '../src/images/dugtrio-icon.png',
@@ -36,18 +36,33 @@ const createContactPage = () => {
     const personDiv = document.createElement('div');
     personDiv.classList.add('person');
 
+    const infoDiv = document.createElement('div');
+    infoDiv.classList.add('info');
+
+    const textDiv = document.createElement('div');
+    textDiv.classList.add('text');
+
     const personName = document.createElement('h2');
     personName.textContent = person.name;
-    personDiv.appendChild(personName);
+    textDiv.appendChild(personName);
 
     const personRole = document.createElement('p');
     personRole.textContent = person.role;
-    personDiv.appendChild(personRole);
+    textDiv.appendChild(personRole);
+
+    infoDiv.appendChild(textDiv);
+
+    const iconDiv = document.createElement('div');
+    iconDiv.classList.add('icon');
 
     const personIcon = document.createElement('img');
     personIcon.src = person.icon;
     personIcon.alt = `${person.name}'s icon`;
-    personDiv.appendChild(personIcon);
+    iconDiv.appendChild(personIcon);
+
+    infoDiv.appendChild(iconDiv);
+
+    personDiv.appendChild(infoDiv);
 
     const contactList = document.createElement('ul');
 
