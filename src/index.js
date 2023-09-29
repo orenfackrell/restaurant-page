@@ -2,7 +2,7 @@ import { createHomePage } from "./homepage";
 import { createContactPage } from "./contact";
 import { createMenuPage } from "./menu";
 
-const contentDiv = document.getElementById("homepage");
+const contentDiv = document.getElementById("content");
 
 function clearContent() {
   const contentChildren = Array.from(contentDiv.children);
