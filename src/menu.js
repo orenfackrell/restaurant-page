@@ -78,6 +78,8 @@ function createMenuPage() {
   const menuContainer = document.createElement('div');
   menuContainer.classList.add('menu-container');
 
+  const fragment = document.createDocumentFragment();
+
   menuItems.forEach((item) => {
     const itemDiv = document.createElement('div');
     itemDiv.classList.add('item');
@@ -114,8 +116,10 @@ function createMenuPage() {
     effectDiv.textContent = item.effect;
     itemDiv.appendChild(effectDiv);
 
-    menuContainer.appendChild(itemDiv);
+    fragment.appendChild(itemDiv);
   });
+
+  menuContainer.appendChild(fragment);
   contentDiv.appendChild(menuContainer);
 }
 
