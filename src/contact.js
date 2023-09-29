@@ -14,21 +14,21 @@ const createContactPage = () => {
       role: 'Role: Guild Leader',
       email: 'guildmaster@wigglytuffguild.pmd',
       phone: randomNumber(),
-      icon: '../src/images/wigglytuff-icon.png',
+      icon: '../dist/images/wigglytuff-icon.png',
     },
     {
       name: 'Chatot',
       role: 'Role: Guild Assistant',
       email: 'guildassistant@wigglytuffguild.pmd',
       phone: randomNumber(),
-      icon: '../src/images/chatot-icon.png',
+      icon: '../dist/images/chatot-icon.png',
     },
     {
       name: 'Dugtrio',
       role: 'Role: Security',
       email: 'sentry@wigglytuffguild.pmd',
       phone: randomNumber(),
-      icon: '../src/images/dugtrio-icon.png',
+      icon: '../dist/images/dugtrio-icon.png',
     },
   ];
 
