@@ -1,7 +1,7 @@
-import { createHomePage } from './homepage';
-import { createContactPage } from './contact';
+import createHomePage from './homepage';
+import createContactPage from './contact';
 import { createMenuPage } from './menu';
-import backgroundImage from '../src/images/pmd-cake.jpg';
+import backgroundImage from './images/pmd-cake.jpg';
 
 const contentDiv = document.getElementById('content');
 

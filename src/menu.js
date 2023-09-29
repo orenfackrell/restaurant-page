@@ -16,22 +16,19 @@ function createMenuPage() {
     {
       name: 'Tiny Apple',
       cost: '45 Poké',
-      effect:
-        'Restores 20 Belly. If eaten while full, maximum Belly goes up by 5.',
+      effect: 'Restores 20 Belly. If eaten while full, maximum Belly goes up by 5.',
       image: tinyApple,
     },
     {
       name: 'Apple',
       cost: '100 Poké',
-      effect:
-        'Restores 50 Belly. If eaten while full, maximum Belly goes up by 5',
+      effect: 'Restores 50 Belly. If eaten while full, maximum Belly goes up by 5',
       image: apple,
     },
     {
       name: 'Big Apple',
       cost: '200 Poké',
-      effect:
-        'Restores 100 Belly. If eaten while full, maximum Belly goes up by 10',
+      effect: 'Restores 100 Belly. If eaten while full, maximum Belly goes up by 10',
       image: bigApple,
     },
     {
@@ -49,36 +46,31 @@ function createMenuPage() {
     {
       name: 'Chestnut',
       cost: '1000 Poké',
-      effect:
-        'Restores 50 Belly. If eaten while full, maximum Belly goes up by 5.',
+      effect: 'Restores 50 Belly. If eaten while full, maximum Belly goes up by 5.',
       image: chestnut,
     },
     {
       name: 'Mega Donut',
       cost: '3000 Poké',
-      effect:
-        "A food item that raises a Pokémon's experience points by 5000 and randomly and permanently raises one or more of a Pokémon's stats.",
+      effect: "A food item that raises a Pokémon's experience points by 5000 and randomly and permanently raises one or more of a Pokémon's stats.",
       image: megaDonut,
     },
     {
       name: 'Grimy Food',
       cost: '6 Poké',
-      effect:
-        'A food item that restores 30 Belly, also inflicts Leg Hold, poison, paralysis, or burn.',
+      effect: 'A food item that restores 30 Belly, also inflicts Leg Hold, poison, paralysis, or burn.',
       image: grimyFood,
     },
     {
       name: 'Four-Leaf Cookie',
       cost: '3000 Poké',
-      effect:
-        "A food item that randomly and permanently raises one or more of a Pokémon's stats.",
+      effect: "A food item that randomly and permanently raises one or more of a Pokémon's stats.",
       image: fourLeafCookie,
     },
     {
       name: 'Sweet Chocolate',
       cost: '3000 Poké',
-      effect:
-        "A food item that randomly and permanently raises one or more of a Pokémon's stats.",
+      effect: "A food item that randomly and permanently raises one or more of a Pokémon's stats.",
       image: sweetChocolate,
     },
   ];

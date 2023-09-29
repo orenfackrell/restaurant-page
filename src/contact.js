@@ -3,10 +3,8 @@ import chatotIcon from './images/icons/chatot-icon.png';
 import dugtrioIcon from './images/icons/dugtrio-icon.png';
 
 function randomNumber() {
-  for (let i = 0; i < 10; i++) {
-    let randomMobile = '07' + Math.random().toString().slice(2, 11);
-    return randomMobile;
-  }
+  const randomMobile = `07${Math.random().toString().slice(2, 11)}`;
+  return randomMobile;
 }
 
 const createContactPage = () => {
@@ -84,4 +82,4 @@ const createContactPage = () => {
   });
 };
 
-export { createContactPage };
+export default createContactPage;
