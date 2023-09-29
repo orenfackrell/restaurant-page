@@ -7,7 +7,7 @@ html {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: url(../src/images/pmd-cake.jpg);
+  background: url(../dist/images/pmd-cake.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
