@@ -1,0 +1,15 @@
+html {
+  display: flex;
+  justify-content: center;
+  background-color: black; /* placeholder colour for contrast */
+}
+body {
+  background-color: whitesmoke; /* placeholder colour for contrast */
+  width: 60vh;
+  padding: 2rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+}
