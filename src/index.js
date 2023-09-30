@@ -1,6 +1,6 @@
 import createHomePage from './homepage';
 import createContactPage from './contact';
-import { createMenuPage } from './menu';
+import createMenuPage from './menu';
 import backgroundImage from './images/pmd-cake.jpg';
 
 const contentDiv = document.getElementById('content');
